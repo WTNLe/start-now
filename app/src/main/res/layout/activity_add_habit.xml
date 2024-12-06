@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- 输入习惯名称 -->
+    <EditText
+        android:id="@+id/etHabitName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="输入习惯名称"
+        android:inputType="text"
+        android:layout_marginBottom="16dp" />
+
+    <!-- 选择位置按钮 -->
+    <Button
+        android:id="@+id/btnPickLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="选择位置"
+        android:layout_marginBottom="16dp" />
+
+    <!-- 保存习惯按钮 -->
+    <Button
+        android:id="@+id/btnSaveHabit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="保存习惯" />
+
+</LinearLayout>
